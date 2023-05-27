@@ -39,4 +39,11 @@ def chatbot():
         return jsonify(resposta=resposta)
 
 
+"""
+Test with the following code:
+import requests
+x = requests.get(http://127.0.0.1:5000/chatbot?pergunta=who is golda meir?)
+print(x.text)
+"""
+
 app.run()
