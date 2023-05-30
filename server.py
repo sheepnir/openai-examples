@@ -46,4 +46,6 @@ x = requests.get(http://127.0.0.1:5000/chatbot?pergunta=who is golda meir?)
 print(x.text)
 """
 
-app.run()
+
+if __name__ == "__main__":
+    app.run()
